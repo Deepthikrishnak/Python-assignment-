@@ -1,0 +1,5 @@
+input_dict = input("Enter dictionary (e.g., {'a': 1, 'c': 3, 'b': 2}): ")
+input_dict = eval(input_dict)
+sorted_dict = dict(sorted(input_dict.items()))
+print("Sorted Dictionary:")
+print(sorted_dict)
